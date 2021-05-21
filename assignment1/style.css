@@ -1,0 +1,257 @@
+body{
+    background-color:#F8F8F8;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+nav{
+    width: 100%;
+}
+.container-box{
+     width: 895px;
+height: 1050px;
+margin: 50px auto;
+
+position: relative;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+   
+    
+   font-size: 1rem;
+ text-align: center;
+    color:#737373;
+    line-height:normal;
+   
+
+    
+}
+.navbar{
+    color: blue;
+    font-weight:bolder;
+    text-align: center;
+  
+    display: inline-block;
+    justify-content: space-between;
+    line-height:normal;
+   margin-top: 5px;
+   
+ width: 100px;
+    height:50px;
+
+
+
+    
+}
+
+.navbar:hover{
+    background-color:blue;
+    color: white;
+     text-align: center;
+     margin-top: 5px;
+    width: 120px;
+    height: 50px;
+
+}
+.container-section{
+    width:100%;
+    
+    text-align: center;
+    box-shadow: 2px;
+    
+    height:420px;
+    background-color:#EAEDEE ;  
+}
+.h1-style{
+    padding:10% 0 0 0;
+    text-align: center;
+    font-weight: bolder;
+    font-family:'Roboto', sans-serif;
+    font-size:4.5rem;
+ 
+}
+.p-1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:#424949 ;
+}
+.btn-1{
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #00b33c;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-2{
+    width: 250px;
+    text-align: center;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #4d94ff;
+    border: none;
+    border-radius: 5px;
+}
+.container-footer{
+    width:100%;
+    
+    
+  
+    margin-top: 2%;
+    height:400px;
+     
+}
+p{
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: bolder;
+    color:#424949 ;
+    
+
+}
+
+table{
+    border:none;
+    width:100%
+}
+h1{
+    font-size:xx-large;
+    font-weight: bolder;
+    line-height:10px;
+}
+
+
+.inner{
+    color:dodgerblue;
+    font-weight: bolder;
+}
+
+
+
+
+/* @media  (max-width:1300px) {
+ 
+    hr {
+        width:70.5%;
+      }
+      nav{
+         
+              width:100%;
+              text-align: center;
+            }
+            .container{
+              text-align: center;
+              justify-content: space-around;
+             width: auto;
+              padding:0 5%;
+             line-height: normal;
+         
+          
+            }
+            .navbar{
+                width: auto;
+              text-align: center;
+          
+   
+            }
+            .navbar:hover{
+                background-color: blue;
+                text-align: center;
+                width: auto;
+                height: auto;
+            }
+            .h1-style{
+    
+            text-align: center;
+            font-weight: bolder;
+            font-family:'Roboto', sans-serif;
+            font-size:2.0rem;
+        }
+        p{
+            font-size:small;
+            text-align: left;
+            font-weight: bold;
+            color:#424949 ;
+            
+        }          
+} */
+/* @media  (max-width: 899px) {
+hr {
+      width: 100%;
+    }
+    nav{
+        display: block;
+            width: 100%;
+          }
+          .container{
+            text-align: center;
+            display:block;
+            width: auto;
+          }
+          .navbar{
+            text-align: center;
+            display:block;
+            width: auto;
+          }
+          .navbar:hover{
+              background-color: blue;
+              text-align: center;
+              width: auto;
+              height: auto;
+          }
+          .container-section{
+            width: 100%;
+            text-align: center;
+            height: auto;
+            font-weight:4 rem;
+            margin-left: auto;
+        }
+
+        .container-footer{
+            width: 100%;
+            
+            height: auto;
+            font-weight:2 rem;
+            margin-left: auto;
+        }
+          .h1-style{
+              width: 100%;
+              padding:auto;
+              text-align: center;
+              font-weight: bolder;
+              font-family:'Roboto', sans-serif;
+              font-size:2.0rem;
+          }
+          .p-1{
+            text-align: center;
+            font-weight: bold;
+            font-size: 1rem;
+            color:#424949 ;
+         
+          }
+          p{
+            font-size:small;
+            text-align: left;
+            font-weight: bold;
+            color:#424949 ;
+            
+            
+        
+        }
+        .p-2{
+            margin-left: auto;
+        }
+
+          }
+         
+   */
